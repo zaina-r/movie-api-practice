@@ -27,6 +27,6 @@ public class Movie {
     private List<String> backdrops;
     @DocumentReference //Stores only the review Ids while the actual reviews exist in a separate collection
     //Called manual reference relationships
-    private List<Reviews> reviewIds;
+    private List<Review> reviewIds;
 
 }
